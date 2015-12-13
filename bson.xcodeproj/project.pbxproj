@@ -229,10 +229,10 @@
 		3738CE391BEAB09B00938057 /* yajl_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_tree.h; sourceTree = "<group>"; };
 		3738CE3A1BEAB09B00938057 /* yajl_version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_version.c; sourceTree = "<group>"; };
 		3738CE3B1BEAB09B00938057 /* yajl_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_version.h; sourceTree = "<group>"; };
-		3738CE891BEAB61700938057 /* bson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738CE891BEAB61700938057 /* CBSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CBSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3738CE8B1BEAB61700938057 /* bson-ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bson-ios.h"; sourceTree = "<group>"; };
 		3738CE8D1BEAB61700938057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3738CEDF1BEAB7B800938057 /* bson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738CEDF1BEAB7B800938057 /* CBSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CBSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3738CEE11BEAB7B800938057 /* bson-osx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bson-osx.h"; sourceTree = "<group>"; };
 		3738CEE31BEAB7B800938057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A949941BFE5E29007DE5D6 /* bson-version-functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-version-functions.c"; sourceTree = "<group>"; };
@@ -271,8 +271,8 @@
 		3738CD341BEA9BA800938057 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3738CE891BEAB61700938057 /* bson.framework */,
-				3738CEDF1BEAB7B800938057 /* bson.framework */,
+				3738CE891BEAB61700938057 /* CBSON.framework */,
+				3738CEDF1BEAB7B800938057 /* CBSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -509,7 +509,7 @@
 			);
 			name = "bson-ios";
 			productName = "bson-ios";
-			productReference = 3738CE891BEAB61700938057 /* bson.framework */;
+			productReference = 3738CE891BEAB61700938057 /* CBSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3738CEDE1BEAB7B800938057 /* bson-osx */ = {
@@ -527,7 +527,7 @@
 			);
 			name = "bson-osx";
 			productName = "bson-osx";
-			productReference = 3738CEDF1BEAB7B800938057 /* bson.framework */;
+			productReference = 3738CEDF1BEAB7B800938057 /* CBSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -757,7 +757,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.dvappel.bson-ios";
-				PRODUCT_NAME = bson;
+				PRODUCT_NAME = CBSON;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -786,7 +786,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.dvappel.bson-ios";
-				PRODUCT_NAME = bson;
+				PRODUCT_NAME = CBSON;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -815,7 +815,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.dvappel.bson-osx";
-				PRODUCT_NAME = bson;
+				PRODUCT_NAME = CBSON;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -840,7 +840,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.dvappel.bson-osx";
-				PRODUCT_NAME = bson;
+				PRODUCT_NAME = CBSON;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
